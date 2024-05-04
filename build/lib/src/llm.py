@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from config import instruction
+from src.config import instruction
 
 load_dotenv()
 
